@@ -1,0 +1,72 @@
+/* CSS styles for header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-link, .nav-button {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* CSS styles for section 'About Me' */
+  .section-aboutme {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  /* CSS styles for section 'Skills' */
+  .section-skills {
+    background-color: #ddd;
+    padding: 10px;
+  }
+  
+  /* CSS styles for section 'Portfolio' */
+  .section-portfolio {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  /* CSS styles for section 'Contact' */
+  .section-contact {
+    background-color: #eee;
+    padding: 20px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-bottom: 10px;
+  }
+  
+  /* CSS styles for footer */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .directnav {
+    color: white;
+    text-decoration: none;
+  }
+  

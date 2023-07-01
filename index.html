@@ -11,37 +11,60 @@
 <title>PROFILE</title>
 
 
-<body>
+<body class="body-main">
    <header class="section-header">
-    <div> 
-    <a href="index.html"class="direct">Hari Krishna N</a>
-    <a href="#section-aboutme"class="nav-link">About Me</a>
-    <a href="#section-skills"class="nav-link">Skills</a>
-    <a href="#section-portfolio"class="nav-link">Portfolio</a>
-    <a href="#section-contact"class="nav-link">Contact Me</a>
+    <div class="header"> 
+    <a href="index.html"class="direct" id="name-head">Hari Krishna N</a>
+    <a href="#section-aboutme"class="nav-link" id="about-head">About Me</a>
+    <a href="#section-skills"class="nav-link"id="skills-head">Skills</a>
+    <a href="#section-portfolio"class="nav-link" id="portfolio-head">Portfolio</a>
+    <a href="#section-contact"class="nav-link" id="contact-head">Contact Me</a>
 </div>
    </header>
    <main>
    <section class="section-aboutme" name="About me"id="aboutme-sec">
-    <p>I am one the aspirant working on new technoligies and show my full potential on my work....fell free to get contact</p>
+    <p>Skilled website designer dedicated to crafting intuitive user experiences. Let's discuss your web design needs and create something remarkable together.</p>
     <img class="profile-img"src="">
     <button href="#section-contact"class="nav-button">Contact Me</button>
 
    </section>
    <section class="section-skills" name="Skills" id="skills-sec">
-    <h4>The skills in my hands.. </h4>               
+    <h4>I work with these languages and tools</h4>    
+    <p>html,css,javascript,json,jsp,sql,php,figma,github,canva,python,mechine learning </p>           
 
    </section>
    <section class="section-portfolio"id="portfolio-sec">
     <p>These are the projects finished by me</p>
+    <p>Portfolio page,online cab booking,</p>
    </section>
    <section class="section-contact" id="contact-sec">
-    <div class="contact-form">
-        <label>Name:</label>
-        <label>Mail id:</label>
-        <label>Message:</label>
-
-    </div>
+    <form action="/submit" method="POST">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+      
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+      
+        <div>
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+      
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+      
+        <div>
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+      
+      
    </section>
 </main>
 <footer>

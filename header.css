@@ -1,12 +1,71 @@
-/* Style the header container */
-.section-header {
-    background-color: #f2f2f2;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+
+/* Default styles */
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+.section-header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%; /* Added to limit the width of the header */
+  margin: 0 auto; /* Added to center the header horizontally */
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+
+/* Media queries */
+@media screen and (max-width: 767px) {
+  /* Styles for mobile devices */
+  .section-header {
+    padding: 10px 5px;
   }
-  
+
+  .section-header div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .section-header a,
+  .section-header button {
+    display: block;
+    margin: 5px 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* Styles for desktop devices */
+  .section-header {
+    padding: 10px;
+  }
+
+  .section-header div {
+    align-items: center;
+  }
+
+  .section-header a,
+  .section-header button {
+    display: inline-block;
+  }
+}
+
+
   /* Style the navigation links */
   .nav-link {
     text-decoration: none;

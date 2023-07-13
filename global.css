@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-marko-one: "Marko One";
+  --font-marmelad: Marmelad;
+  --font-klee-one: "Klee One";
+  --font-irish-grover: "Irish Grover";
+  --font-kaushan-script: "Kaushan Script";
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-6xl: 25px;
+  --font-size-31xl: 50px;
+  --font-size-xl: 20px;
+  --font-size-11xl: 30px;
+  --font-size-41xl: 60px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-mediumslateblue: #5e5bff;
+  --color-gainsboro-100: #e2e1e5;
+  --color-gainsboro-200: rgba(217, 217, 217, 0);
+  --color-lightgray: #d2d2d2;
+  --color-black: #000;
+  --color-lightpink-100: #f3abab;
+  --color-lightpink-200: #fba4a4;
+  --color-lavenderblush: #f4e5e5;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+  --padding-mini: 15px;
+
+  /* border radiuses */
+  --br-40xl: 59px;
+  --br-7xl-5: 26.5px;
+  --br-15xl: 34px;
+  --br-xs: 12px;
+}
